@@ -1,6 +1,6 @@
 package convert
 
-// Dereferences converts pointer to its non-pointer type and copies it on the stack.
+// Dereference converts a pointer to its non-pointer type and copies it on the stack.
 func Dereference[T any](t *T) T {
     if t == nil {
         var ret T

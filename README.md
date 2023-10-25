@@ -1,2 +1,2 @@
 # convert
-convert contains simple conversion functions in Go
+convert contains simple, fundamental conversion functions in Go.
